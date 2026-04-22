@@ -1,6 +1,8 @@
 # ScholarFlow 🎓
 > La plateforme de gestion de projets académiques moderne, fluide et sécurisée.
 
+**Dépôt GitHub :** [https://github.com/fils-arnold/scholarflow](https://github.com/fils-arnold/scholarflow)
+
 ScholarFlow est une application web conçue pour faciliter la collaboration entre étudiants, enseignants et administrations universitaires. Elle permet de gérer tout le cycle de vie d'un projet, de la candidature à la certification finale.
 
 ## ✨ Fonctionnalités Clés
