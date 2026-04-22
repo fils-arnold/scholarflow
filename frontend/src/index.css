@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222 47% 11%;
+    --primary: 188 78% 41%; /* Cyan accent from image */
+    --primary-foreground: 0 0% 100%;
+    --sidebar: 0 0% 18%; /* Dark charcoal for sidebar */
+    --sidebar-foreground: 0 0% 90%;
+    --navbar: 0 0% 10%; /* Darker black for navbar */
+    --secondary: 210 40% 96%;
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 188 78% 41%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 188 78% 41%;
+    --radius: 0.5rem;
+  }
+
+  body {
+    @apply bg-white text-slate-900 antialiased;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+  }
+}
+
+/* Utilitaires de simplification */
+.border-simple { @apply border border-slate-100; }
+.bg-soft { @apply bg-slate-50; }
